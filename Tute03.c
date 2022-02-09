@@ -11,9 +11,28 @@ sum = 1+2+3+....+ 99+100 = 5050
 n -> 1-
 sum = 1+2+3+...+10 = 55 */
 
-#include <stdio.h>
-int main() {
-  
-  return 0;
+#include<stdio.h>
+int main(void)
+{
+	int x , range;
+	int sum = 0;
+	
+	printf("Enter the range : ");
+	scanf("%d",&range);
+	
+	for(x=1;x<=range;x++)
+	{
+	   	sum = sum + x;
+			
+	}
+	
+	printf("Sum is : %d",sum);
+	
+	
+	
+	
+	
+	
+ return 0;	
+	
 }
-
